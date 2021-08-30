@@ -1,0 +1,2 @@
+rootProject.name = "SpotifyClone"
+include ':app'
