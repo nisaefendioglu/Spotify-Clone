@@ -18,7 +18,6 @@
         android:layout_marginLeft="120dp"/>
 
     <Button
-        android:id="@+id/btn_clear"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="Spotify®"
@@ -69,6 +68,8 @@
         android:text="LOG IN"
         android:background="@drawable/button_oval_white"
         android:layout_marginLeft="20dp"
+        android:onClick="onRequestTokenClicked"
+
         />
 
 </RelativeLayout>
