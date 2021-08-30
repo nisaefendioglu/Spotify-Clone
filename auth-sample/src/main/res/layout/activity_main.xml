@@ -20,7 +20,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:text="Spotify®"
+        android:text="Spotify ®"
         android:textSize="20dp"
         android:textAllCaps="false"
         android:textColor="@color/white"
