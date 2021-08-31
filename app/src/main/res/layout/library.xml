@@ -1,6 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/libraryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/black">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/playlists"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Playlists"
+        android:gravity="left|center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/topArtists"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Top Artists"
+        android:gravity="left|top"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textSize="16dp"
+        android:layout_marginLeft="8dp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/createList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/black">
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/create_playlist"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create List"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/playlistListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="57dp"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
