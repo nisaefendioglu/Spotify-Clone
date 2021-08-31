@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">SpotifyClone</string>
+    <string name="app_name">Spotify Clone</string>
+    <string name="name_txt" />
+    <string name="name">Name Placeholder</string>
+    <string name="top_artist_txtView">Top Artists</string>
 </resources>

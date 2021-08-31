@@ -1,1 +1,2 @@
-include ':auth-lib', ':auth-sample'
+include ':app'
+rootProject.name = "Spotify Clone"
