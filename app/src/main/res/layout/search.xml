@@ -1,6 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/search_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_marginBottom="57dp"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Search"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/search_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingClass">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@id/search_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Artists, songs, or podcasts"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    app:icon="@drawable/search"
+                    app:iconGravity="textStart"
+                    app:iconSize="15dp"
+                    app:iconTint="@color/black" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="13dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="@color/white"
+                    android:text="Genres you listen to the most"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/musiclist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="10dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/colorAccent"
+                    android:text="Pop"
+                    android:gravity="left|top"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/green"
+                    android:text="Podcast"
+                    android:gravity="left|top"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="@color/purple_200"
+                    android:text="Rock"
+                    android:gravity="left|top"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="-375dp"
+                    android:layout_marginTop="100dp"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#2196F3"
+                    android:text="Rap"
+                    android:gravity="left|top"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="100dp"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#4527A0"
+                    android:text="Hip Hop"
+                    android:gravity="left|top"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="-375dp"
+                    android:layout_marginTop="200dp"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#FFC107"
+                    android:text="İndie"
+                    android:gravity="left|top"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="200dp"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#FF9E80"
+                    android:text="Lists"
+                    android:gravity="left|top"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="-375dp"
+                    android:layout_marginTop="300dp"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#B71C1C"
+                    android:text="Radio"
+                    android:gravity="left|top"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="300dp"
+                    />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
