@@ -1,6 +1,7 @@
 package com.nisaefendioglu.spotifyclone.Services;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -9,6 +10,7 @@ import android.util.Log;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
+import com.nisaefendioglu.spotifyclone.Home;
 import com.nisaefendioglu.spotifyclone.MainActivity;
 import com.nisaefendioglu.spotifyclone.R;
 import com.nisaefendioglu.spotifyclone.Model.User;
@@ -29,6 +31,7 @@ public class Authentication extends AppCompatActivity {
     private static final int REQUEST_CODE = 1337;
     public static final String REDIRECT_URI = "https://open.spotify.com/playlist/";
 
+    Fragment fragment = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
