@@ -1,4 +1,4 @@
-package com.nisaefendioglu.spotifyclone;
+package com.nisaefendioglu.spotifyclone.Fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
+
+import com.nisaefendioglu.spotifyclone.R;
 
 public class Search extends Fragment {
 

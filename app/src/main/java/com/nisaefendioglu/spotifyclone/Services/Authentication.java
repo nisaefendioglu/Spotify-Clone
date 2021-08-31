@@ -10,7 +10,6 @@ import android.util.Log;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-import com.nisaefendioglu.spotifyclone.Home;
 import com.nisaefendioglu.spotifyclone.MainActivity;
 import com.nisaefendioglu.spotifyclone.R;
 import com.nisaefendioglu.spotifyclone.Model.User;

@@ -1,4 +1,4 @@
-package com.nisaefendioglu.spotifyclone;
+package com.nisaefendioglu.spotifyclone.Fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.widget.LinearLayout;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.nisaefendioglu.spotifyclone.R;
 
 public class Library extends Fragment {
 

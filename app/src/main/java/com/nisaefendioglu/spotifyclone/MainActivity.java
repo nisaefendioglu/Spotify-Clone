@@ -3,11 +3,13 @@ package com.nisaefendioglu.spotifyclone;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.nisaefendioglu.spotifyclone.Fragment.Home;
+import com.nisaefendioglu.spotifyclone.Fragment.Library;
+import com.nisaefendioglu.spotifyclone.Fragment.Search;
 
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView navView;
