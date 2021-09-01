@@ -26,6 +26,7 @@ public class Library extends Fragment {
 
         playlistListView = view.findViewById(R.id.playlistListView);
 
+        libraryLists.add(new LibraryList("Liked Songs","4,302 songs","G",R.drawable.liked));
         libraryLists.add(new LibraryList("Dance","Playlists","G",R.drawable.dance));
         libraryLists.add(new LibraryList("Hits","Playlists","G",R.drawable.hits));
         libraryLists.add(new LibraryList("Rap","Playlists","G",R.drawable.rap));
