@@ -11,12 +11,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class LibraryAdapter extends BaseAdapter {
+public class ArtistAdapter extends BaseAdapter {
 
     private LayoutInflater mInflater;
-    private ArrayList<LibraryList> mailArrayList;
+    private ArrayList<ArtistList> mailArrayList;
 
-    public LibraryAdapter(Activity activity, ArrayList<LibraryList> gmailArrayList) {
+    public ArtistAdapter(Activity activity, ArrayList<ArtistList> gmailArrayList) {
 
         this.mInflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         this.mailArrayList = gmailArrayList;
@@ -40,14 +40,12 @@ public class LibraryAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        convertView = mInflater.inflate(R.layout.library_listview, null);
-        TextView Name =  convertView.findViewById(R.id.playlistName);
-        TextView musicContent = convertView.findViewById(R.id.playlistContent);
-        ImageView imageView = convertView.findViewById(R.id.imageView);
-        LibraryList music = mailArrayList.get(position);
-        Name.setText(music.getName());
-        musicContent.setText(music.getMusic());
-        imageView.setImageResource(music.getImage());
+        convertView = mInflater.inflate(R.layout.library_artist_view, null);
+        TextView Name =  convertView.findViewById(R.id.libraryArtistName);
+        ImageView imageView = convertView.findViewById(R.id.libraryArtistCover);
+        ArtistList artist = mailArrayList.get(position);
+        Name.setText(artist.getName());
+        imageView.setImageResource(artist.getImage());
         return convertView;
     }
 }

@@ -1,14 +1,11 @@
 package com.nisaefendioglu.spotifyclone;
 
-
-public class LibraryList {
+public class ArtistList {
     private String name;
-    private String music;
     private int image;
 
-    public LibraryList(String name, String music, int image) {
+    public ArtistList(String name, int image) {
         this.name = name;
-        this.music = music;
         this.image = image;
 
     }
@@ -21,13 +18,7 @@ public class LibraryList {
         this.name = name;
     }
 
-    public String getMusic() {
-        return music;
-    }
 
-    public void setMusic(String music) {
-        this.music = music;
-    }
 
     public int getImage() {
         return image;
@@ -36,4 +27,5 @@ public class LibraryList {
     public void setImage(int image) {
         this.image = image;
     }
+
 }
