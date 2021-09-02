@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.spotify_api_proj", appContext.getPackageName());
+        assertEquals("com.example.com.nisaefendioglu.spotifyclone.spotify_api_proj", appContext.getPackageName());
     }
 }

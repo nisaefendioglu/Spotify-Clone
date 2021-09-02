@@ -5,7 +5,10 @@ plugins {
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
-
+    dataBinding.enabled true
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId "com.nisaefendioglu.spotifyclone"
         minSdkVersion 28

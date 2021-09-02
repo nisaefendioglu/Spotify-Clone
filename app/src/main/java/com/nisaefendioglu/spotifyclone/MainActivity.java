@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.nisaefendioglu.spotifyclone.Fragment.Home;
-import com.nisaefendioglu.spotifyclone.Fragment.Library;
+import com.nisaefendioglu.spotifyclone.Fragment.LibraryMainFragment;
 import com.nisaefendioglu.spotifyclone.Fragment.Search;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new Search();
                         break;
                     case R.id.library:
-                        fragment = new Library();
+                        fragment = new LibraryMainFragment();
                         break;
 
                 }

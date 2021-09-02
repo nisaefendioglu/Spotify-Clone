@@ -1,10 +1,8 @@
-package com.nisaefendioglu.spotifyclone;
+package com.nisaefendioglu.spotifyclone.Data;
 
 public class Artists {
     private String name ;
     private String id;
-    private int followers;
-    private int popularity;
 
     public Artists() {
     }
@@ -16,19 +14,6 @@ public class Artists {
     public Artists(String name, String id) {
         this.name = name;
         this.id = id;
-    }
-
-    public Artists(String name, String id, int followers) {
-        this.name = name;
-        this.id = id;
-        this.followers = followers;
-    }
-
-    public Artists(String name, String id, int followers, int popularity) {
-        this.name = name;
-        this.id = id;
-        this.followers = followers;
-        this.popularity = popularity;
     }
 
     public String getName() {

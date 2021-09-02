@@ -1,4 +1,4 @@
-package com.nisaefendioglu.spotifyclone;
+package com.nisaefendioglu.spotifyclone.Adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,27 +9,30 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.nisaefendioglu.spotifyclone.Data.LibraryList;
+import com.nisaefendioglu.spotifyclone.R;
+
 import java.util.ArrayList;
 
 public class LibraryAdapter extends BaseAdapter {
 
     private LayoutInflater mInflater;
-    private ArrayList<LibraryList> mailArrayList;
+    private ArrayList<LibraryList> libraryArrayList;
 
-    public LibraryAdapter(Activity activity, ArrayList<LibraryList> gmailArrayList) {
+    public LibraryAdapter(Activity activity, ArrayList<LibraryList> libraryArrayList) {
 
         this.mInflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        this.mailArrayList = gmailArrayList;
+        this.libraryArrayList = libraryArrayList;
     }
 
     @Override
     public int getCount() {
-        return mailArrayList.size();
+        return libraryArrayList.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return mailArrayList.get(position);
+        return libraryArrayList.get(position);
     }
 
     @Override
@@ -44,7 +47,7 @@ public class LibraryAdapter extends BaseAdapter {
         TextView Name =  convertView.findViewById(R.id.playlistName);
         TextView musicContent = convertView.findViewById(R.id.playlistContent);
         ImageView imageView = convertView.findViewById(R.id.imageView);
-        LibraryList music = mailArrayList.get(position);
+        LibraryList music = libraryArrayList.get(position);
         Name.setText(music.getName());
         musicContent.setText(music.getMusic());
         imageView.setImageResource(music.getImage());

@@ -18,7 +18,7 @@ public class Home extends Fragment {
     RecyclerView welcome_recycler,heard_recently_recycler;
     @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.home,container,false);
+        view = inflater.inflate(R.layout.home_fragment,container,false);
         welcome_layout = view.findViewById(R.id.welcome_layout);
         heard_recently_layout = view.findViewById(R.id.heard_recently_layout);
         welcome_recycler = view.findViewById(R.id.welcome_recycler);

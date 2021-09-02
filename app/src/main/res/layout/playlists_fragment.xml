@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/playlistLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/gray_strong"
+            android:text="Find in playlists"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/gray"
+            android:textSize="13dp"
+            app:icon="@drawable/search"
+            app:iconGravity="textStart"
+            app:iconSize="15dp"
+            app:iconTint="@color/gray"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/gray_strong"
+            android:text="Filters"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/gray"
+            android:textSize="13dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="-45dp"/>
+
+        <LinearLayout
+            android:id="@+id/createList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/black">
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/create_playlist"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create List"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                />
+
+        </LinearLayout>
+        <ListView
+            android:id="@+id/playlistListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="57dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

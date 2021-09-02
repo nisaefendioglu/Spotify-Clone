@@ -17,7 +17,7 @@ public class Search extends Fragment {
     ConstraintLayout search_layout;
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        view = inflater.inflate(R.layout.search,container,false);
+        view = inflater.inflate(R.layout.search_fragment,container,false);
         search_layout = view.findViewById(R.id.search_layout);
         return view;
 
