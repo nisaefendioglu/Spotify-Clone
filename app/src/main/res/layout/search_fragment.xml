@@ -5,6 +5,7 @@
     android:id="@+id/search_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="20dp"
     android:layout_marginBottom="57dp"
     android:fitsSystemWindows="true">
 
@@ -22,8 +23,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -78,8 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="230dp"
-                android:layout_marginLeft="10dp">
+                android:layout_marginTop="230dp">
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="180dp"
