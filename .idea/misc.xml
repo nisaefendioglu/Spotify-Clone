@@ -4,14 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/artists_fragment.xml" value="0.10182370820668693" />
-        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_fragment.xml" value="0.10182370820668693" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/artists_item.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_artist.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_artist_view.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_artists_item.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_fragment.xml" value="0.15" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_playlist_adapter.xml" value="0.10182370820668693" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/library_artist_view.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/library_artists_item.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/library_createplaylist_view.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/library_listview.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/library_main.xml" value="0.10182370820668693" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/login_fragment.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/playlists_fragment.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/row_artist.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/search_fragment.xml" value="0.12092391304347826" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/songs_item.xml" value="0.10182370820668693" />
       </map>
     </option>
   </component>
