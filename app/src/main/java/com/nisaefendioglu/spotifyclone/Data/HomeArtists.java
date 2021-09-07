@@ -1,11 +1,11 @@
-package com.nisaefendioglu.spotifyclone;
+package com.nisaefendioglu.spotifyclone.Data;
 
-public class ArtistsModel {
+public class HomeArtists {
 
     private int image;
     private String name;
 
-    public ArtistsModel(int image, String name) {
+    public HomeArtists(int image, String name) {
         this.image = image;
         this.name = name;
     }

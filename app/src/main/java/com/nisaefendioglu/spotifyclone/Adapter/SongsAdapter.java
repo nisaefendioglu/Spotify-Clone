@@ -1,4 +1,4 @@
-package com.nisaefendioglu.spotifyclone;
+package com.nisaefendioglu.spotifyclone.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,17 +12,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
+import com.nisaefendioglu.spotifyclone.R;
+import com.nisaefendioglu.spotifyclone.Data.HomeSongs;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class SongsAdapter extends RecyclerView.Adapter<SongsAdapter.SongsViewHolder> {
 
-    private final List<SongsModel> songList;
+    private final List<HomeSongs> songList;
 
     private Context context;
 
-    public SongsAdapter(SongsModel[] songList) {
+    public SongsAdapter(HomeSongs[] songList) {
         this.songList = Arrays.asList(songList);
     }
 

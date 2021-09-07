@@ -1,4 +1,4 @@
-package com.nisaefendioglu.spotifyclone;
+package com.nisaefendioglu.spotifyclone.Adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,16 +11,18 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.bumptech.glide.Glide;
+import com.nisaefendioglu.spotifyclone.Data.HomeArtists;
+import com.nisaefendioglu.spotifyclone.R;
 
 import java.util.List;
 
 public class ArtistsAdapter extends RecyclerView.Adapter<ArtistsAdapter.ArtistsViewHolder> {
 
-    private final List<ArtistsModel> artistList;
+    private final List<HomeArtists> artistList;
 
     private ViewGroup context;
 
-    public ArtistsAdapter(List<ArtistsModel> artistList) {
+    public ArtistsAdapter(List<HomeArtists> artistList) {
         this.artistList = artistList;
     }
 

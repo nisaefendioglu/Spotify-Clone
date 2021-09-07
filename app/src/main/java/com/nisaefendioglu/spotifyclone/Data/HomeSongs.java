@@ -1,12 +1,12 @@
-package com.nisaefendioglu.spotifyclone;
+package com.nisaefendioglu.spotifyclone.Data;
 
-public class SongsModel {
+public class HomeSongs {
 
     private int songCover;
     private String songName;
     private String songSinger;
 
-    public SongsModel(int songCover, String songName, String songSinger) {
+    public HomeSongs(int songCover, String songName, String songSinger) {
         this.songCover = songCover;
         this.songName = songName;
         this.songSinger = songSinger;
