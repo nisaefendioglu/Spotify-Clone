@@ -83,7 +83,6 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="16dp"
-                    android:layout_marginLeft="30dp"
                     />
 
                 <com.google.android.material.button.MaterialButton
