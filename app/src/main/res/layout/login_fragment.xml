@@ -5,6 +5,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
     tools:context=".Model.Login"
     android:background="@color/black"
     android:orientation="horizontal">
@@ -14,67 +16,81 @@
         android:id="@+id/btn_get_profile"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@drawable/spotifylogin"
+        android:layout_marginLeft="110dp"
         android:layout_marginTop="100dp"
-        android:layout_marginLeft="120dp"/>
+        android:background="@drawable/spotifylogin" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
         android:text="Spotify ®"
-        android:textSize="20dp"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="160dp"
-        android:background="@android:color/transparent"
-        />
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Welcome \n Sign up free music on your phone, tablet and \n computer."
-        android:textColor="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
         android:layout_marginTop="230dp"
-        android:textSize="13dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginEnd="34dp"
+        android:gravity="center"
+        android:text="Welcome \n Sign up free music on your phone, tablet \n and computer."
+        android:textColor="@color/white"
+        android:textSize="13dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="350dp"
         android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_gravity="center"
-        android:text="CREATE ACCOUNT"
-        android:layout_marginTop="350dp"
+        android:layout_marginStart="34dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="34dp"
         android:background="@drawable/oval_button"
-        android:textSize="15dp"
         android:gravity="center"
+        android:text="CREATE ACCOUNT"
+        android:textSize="15dp"
+        android:textColor="@color/black"
         tools:ignore="OnClick" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Already a user?"
-        android:textColor="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="420dp"
-        android:layout_marginLeft="155dp"
-        android:textSize="13dp"
-
-        />
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:text="Already a user?"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="13dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="350dp"
         android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="460dp"
+        android:layout_marginEnd="34dp"
         android:background="@drawable/button_oval_white"
+        android:gravity="center"
         android:onClick="onRequestTokenClicked"
         android:text="LOG IN"
         android:textSize="15dp"
-        android:gravity="center"
+        android:textColor="@color/black"
         tools:ignore="OnClick" />
 
 </RelativeLayout>
