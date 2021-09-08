@@ -72,12 +72,10 @@
                 android:id="@+id/musiclist"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal"
                 android:layout_marginTop="230dp">
 
                 <com.google.android.material.button.MaterialButton
-                    android:layout_width="180dp"
+                    android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:backgroundTint="@color/colorAccent"
                     android:text="Pop"
@@ -85,10 +83,11 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="16dp"
+                    android:layout_marginLeft="30dp"
                     />
 
                 <com.google.android.material.button.MaterialButton
-                    android:layout_width="180dp"
+                    android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:backgroundTint="@color/green"
                     android:text="Podcast"
@@ -100,7 +99,7 @@
                     />
 
                 <com.google.android.material.button.MaterialButton
-                    android:layout_width="180dp"
+                    android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:backgroundTint="@color/purple_200"
                     android:text="Rock"
@@ -108,12 +107,12 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="16dp"
-                    android:layout_marginLeft="-375dp"
                     android:layout_marginTop="100dp"
+                    android:layout_marginLeft="-315dp"
                     />
 
                 <com.google.android.material.button.MaterialButton
-                    android:layout_width="180dp"
+                    android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:backgroundTint="#2196F3"
                     android:text="Rap"
@@ -121,12 +120,12 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="16dp"
-                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="100dp"
+                    android:layout_marginLeft="15dp"
                     />
 
                 <com.google.android.material.button.MaterialButton
-                    android:layout_width="180dp"
+                    android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:backgroundTint="#4527A0"
                     android:text="Hip Hop"
@@ -134,12 +133,12 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="16dp"
-                    android:layout_marginLeft="-375dp"
                     android:layout_marginTop="200dp"
+                    android:layout_marginLeft="-315dp"
                     />
 
                 <com.google.android.material.button.MaterialButton
-                    android:layout_width="180dp"
+                    android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:backgroundTint="#FFC107"
                     android:text="İndie"
@@ -147,12 +146,12 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="16dp"
-                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="200dp"
+                    android:layout_marginLeft="15dp"
                     />
 
                 <com.google.android.material.button.MaterialButton
-                    android:layout_width="180dp"
+                    android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:backgroundTint="#FF9E80"
                     android:text="Lists"
@@ -160,12 +159,12 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="16dp"
-                    android:layout_marginLeft="-375dp"
                     android:layout_marginTop="300dp"
+                    android:layout_marginLeft="-315dp"
                     />
 
                 <com.google.android.material.button.MaterialButton
-                    android:layout_width="180dp"
+                    android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:backgroundTint="#B71C1C"
                     android:text="Radio"
@@ -173,8 +172,8 @@
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="16dp"
-                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="300dp"
+                    android:layout_marginLeft="15dp"
                     />
             </LinearLayout>
 
