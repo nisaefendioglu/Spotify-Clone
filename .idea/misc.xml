@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/activity_view_playlist.xml" value="0.10182370820668693" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/artists_fragment.xml" value="0.10182370820668693" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/artists_item.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_artist.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_artist_view.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_artists_item.xml" value="0.12092391304347826" />
-        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_fragment.xml" value="0.15" />
+        <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_fragment.xml" value="0.25" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/home_playlist_adapter.xml" value="0.10182370820668693" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/library_artist_view.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/Lenovo/Desktop/Spotify-Clone/app/src/main/res/layout/library_artists_item.xml" value="0.12092391304347826" />

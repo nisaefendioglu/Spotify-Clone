@@ -3,4 +3,5 @@
     <string name="name_txt" />
     <string name="name">Name Placeholder</string>
     <string name="top_artist_txtView">Top Artists</string>
+    <string name="author_name">by %1$s</string>
 </resources>

@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginBottom="57dp">
 
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="20dp"
         android:text="Good Morning!"
         android:textColor="@color/white"
         android:textSize="20dp"
@@ -24,20 +30,96 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="15dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
         />
+        <LinearLayout
+            android:id="@+id/musiclist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="100dp">
 
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/gray_strong"
+            android:text="Liked Songs  💛"
+            android:gravity="left|top"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/gray_strong"
+            android:text="Podcast  🎤"
+            android:gravity="left|top"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:layout_marginLeft="15dp"
+            />
 
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/gray_strong"
+            android:text="Dance Music  💃"
+            android:gravity="left|top"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:layout_marginLeft="-315dp"
+            android:layout_marginTop="50dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/gray_strong"
+            android:text="Radio  📻 "
+            android:gravity="left|top"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            />
+        <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/gray_strong"
+                android:text="❤"
+                android:gravity="left|top"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="13dp"
+                android:layout_marginLeft="-315dp"
+                android:layout_marginTop="100dp"
+                />
+
+       <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/gray_strong"
+                android:text="💙"
+                android:gravity="left|top"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="13dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="100dp"
+                />
+        </LinearLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="250dp"
             >
 
 
@@ -105,5 +187,5 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </ScrollView>
-</FrameLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
