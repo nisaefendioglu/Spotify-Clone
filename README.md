@@ -1,7 +1,7 @@
 # Spotify-Clone
 ## Build and run the app
 ##### Run the app using the "play" or "debug" button.
-
+<br>
 Screenshots of the app :
 <br><br>
 
