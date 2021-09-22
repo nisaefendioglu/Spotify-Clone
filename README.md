@@ -3,7 +3,7 @@
 ##### Run the app using the "play" or "debug" button.
 <br>
 Screenshots of the app :
-<br><br>
+<br><br><br>
 
 ![Adsız-removebg](https://user-images.githubusercontent.com/48391281/134326802-536f061e-0c8b-42f4-a559-3669a47c86b5.png)
 
